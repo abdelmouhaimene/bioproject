@@ -1,0 +1,86 @@
+._header{
+    display: flex;
+}
+._header-content{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column; 
+    margin:0 5rem;
+
+    
+}
+._header-content h1{
+    color: beige;
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+._header-content p{
+    color: beige;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 27px;
+    font-size: 20px;
+    margin-top: 1rem;
+}
+._header-content_people{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+._header-content_people p{
+    font-family: var(--font-family);
+    margin: 0 0 0 1rem;
+}
+._header-content_tree{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+._header-content_tree img{
+    width: 400px;
+    height: 400px;
+}
+
+@media screen and (max-width : 1050px){
+    ._header{
+        flex-direction: column;
+    }
+    ._header-content{
+       
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+   
+   
+}
+@media screen and (max-width : 650px){
+    ._header{
+        
+        align-items: center;
+        justify-content: center;
+    }
+    ._header h1{
+        font-size: 48px;
+        line-height: 50px;
+    }
+    ._header P{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    ._header-content_people {
+        flex-direction: column ;
+        margin: 1rem 0; 
+    }
+    ._header-content_people p{
+        margin: 0; 
+    }
+}
