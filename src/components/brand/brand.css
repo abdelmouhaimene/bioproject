@@ -1,0 +1,103 @@
+.brand-container{
+    margin: 1.5rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.brand-container_img {
+    font-size: 38px;
+    line-height:50px;
+    margin: 0 5rem;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    transition: all .3s ease-out;
+    box-shadow: 3px 5px 10px rgba(150,150,150, .3);
+}
+.brand-container_img i{
+    margin: 5px 0;
+}
+.brand-container_img:hover{
+    width: 220px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+.brand-container_img span{
+    color: #fff;
+}
+.facebook i{
+    color:  #1A6ED8;
+}
+.facebook:hover i{
+    color:  #fff;
+}
+.facebook:hover{
+    background-color: #1A6ED8;
+}
+
+
+.instagram i{
+    background: -webkit-linear-gradient(90deg, rgba(253, 255, 0, 1) 0%, rgba(255, 168, 0, 1) 19%, rgba(255, 0, 131, 1) 75%, rgba(255, 0, 211, 1) 100%, rgba(216, 0, 255, 1) 100%);;
+    -webkit-background-clip: text;
+    background-clip: calc();
+  -webkit-text-fill-color: transparent;
+}
+.instagram:hover i{
+    color:  #fff;
+}
+.instagram:hover{
+    background: linear-gradient(90deg, rgba(253, 255, 0, 1) 0%, rgba(255, 168, 0, 1) 19%, rgba(255, 0, 131, 1) 75%, rgba(255, 0, 211, 1) 100%, rgba(216, 0, 255, 1) 100%);
+}
+
+.gmail i{
+    color:  #d81a1a;
+}
+.gmail:hover i{
+    color:  #fff;
+}
+.gmail:hover{
+    background-color: #d81a1a;
+}
+
+.whatsapp i{
+    color:  #1ad81a;
+}
+.whatsapp:hover i{
+    color:  #fff;
+}
+.whatsapp:hover{
+    background-color: #1ad81a;
+}
+
+@media screen and (max-width : 1050px){
+    .brand-container_img{
+        margin: 0 3rem;
+    }
+}
+@media screen and (max-width : 750px){
+    .brand-container_img{
+        margin: 0 2rem;
+    }
+}
+@media screen and (max-width : 550px){
+
+    .brand-container{
+        flex-direction: column;
+    }
+    .brand-container_img{
+        margin: 0.5rem 0;
+    }
+    
+    
+}
+

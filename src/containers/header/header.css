@@ -12,12 +12,16 @@
     
 }
 ._header-content h1{
-    color: beige;
+    background:-webkit-linear-gradient(108deg, rgba(238, 0, 255, 1) 0%, rgba(187, 0, 255, 1) 24%, rgba(255, 0, 163, 1) 57%, rgba(255, 0, 48, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: calc();
+  -webkit-text-fill-color: transparent;
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 50px;
     line-height: 75px;
     letter-spacing: -0.04em;
+
 }
 ._header-content p{
     color: beige;
@@ -27,8 +31,46 @@
     font-size: 20px;
     margin-top: 1rem;
 }
+._header-content_form{
+    margin: 1.5rem 0 0 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+._header-content_form input{
+    flex: 2;
+    width: 100%;
+    padding: 0.5rem;
+    height: 40px;
+    font-family: var(--font-family);
+    font-size: 18px;
+    color: #fff;
+    background-color: rgb(5, 33, 70);
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    outline: none;
+}
+._header-content_form button{
+    flex: 0.6;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-size: 18px;
+    color: #fff;
+    border-top-right-radius: 8px ;
+    border-bottom-right-radius: 8px ;
+    background-color: rgb(252, 25, 112);
+    border: none;
+    outline: none;
+}
+._header-content_form button:hover{
+    background-color: rgba(252, 25, 112, 0.808);
+    /* border: 2px solid rgba(252, 25, 112, 0.808); */
+}
 ._header-content_people{
-    margin-top: 1rem;
+    margin: 1rem 0 1rem 0;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -45,8 +87,8 @@
     align-items: center;
 }
 ._header-content_tree img{
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
 }
 
 @media screen and (max-width : 1050px){
