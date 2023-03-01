@@ -1,0 +1,103 @@
+.journal{
+    margin: 1rem 4rem;
+    font-family: var(--font-family);
+}
+.journal-container{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem ;
+   
+}
+.journal-contatiner_fixed{
+    background-color: var(--color-button);
+    flex: 1;
+    display:flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 2rem;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 5px 5px 2px #000;
+}
+.journal-container_daily{
+    flex: 1.5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    color: #fff;
+}
+.journal-container_daily_news{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.journal-container_daily i{
+    color: var(--color-button);
+    font-size: 60px;
+    cursor: pointer;
+}
+.journal-container_daily i:hover{
+    color: var(--color-button-h);
+}
+.journal-container_daily_news_img{
+    height: 220px;
+    width: 400px;
+    overflow: hidden;
+    border: 2px var(--color-button);
+    border-radius: 10px;
+    margin: 1rem 0;
+    box-shadow: 0px 5px 2px #000;
+}
+.journal-container_daily_news_img img{
+    width: 400px;
+    height: 400px;
+}
+.journal-container_daily_news p{
+    border: 1px #000;
+    text-align: center;
+}
+@media screen and (max-width : 1050px){
+    .journal-container{
+        padding: 2rem 1rem;
+    }
+    .journal-container_daily{
+        margin-left: 1rem;
+    }
+    .journal-contatiner_fixed{
+        margin-right: 1rem;
+    }
+}
+@media screen and (max-width : 900px){
+    .journal-container{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+    }
+    .journal-container_daily{
+       margin: 0 0 1rem 0;
+    }
+
+    .journal-contatiner_fixed{
+        margin: 1rem 0 ;
+    }
+}
+@media screen and (max-width : 750px){
+    .journal{
+        margin: 1rem 2rem;
+    }
+    .journal-container{
+        padding: 10px;
+    }
+}
+@media screen and (max-width : 550px){
+    .journal-container_daily_news_img{
+        width: 340px;
+    }
+}

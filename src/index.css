@@ -3,8 +3,8 @@
 :root {
   --font-family: 'Manrope', sans-serif;
   --color-bg: rgba(95, 164, 255, 1);
-  --color-footer : #031B34;
-  --color-blog: #042c54;
-  --color-text: #81AFDD;
-  --color-subtext: #FF8A71;
+  --color-button :rgb(252, 25, 112);
+  --color-button-h : rgba(252, 25, 112, 0.808);
+  --bg-color : -webkit-radial-gradient(circle at 19% 14%, rgba(174, 203, 237, 1) 0%, rgba(95, 164, 255, 1) 31%, rgba(95, 127, 213, 1) 68%, rgba(0, 49, 113, 1) 100%);
+
 }

@@ -6,7 +6,7 @@ import logo from '../../assets/walogo1.svg'
 const Menu = () => (
   <>
     <p><a href='#home'>Accueil</a></p>
-    <p><a href='#about'>Nous</a></p>
+    <p><a href='#journal'>Journal</a></p>
     <p><a href='#product'>Produits</a></p>
     <p><a href='#buy'>Acheter</a></p>
     <p><a href='#blog'>bibliotheque</a></p>
