@@ -1,6 +1,6 @@
 import React from 'react'
-import { Brand,Cta,Navbar} from './components'
-import {Footer,Blog,Article,Sections,Header,Journal} from './containers'
+import { Brand,Navbar} from './components'
+import {Footer,Article,Products,Header,Journal} from './containers'
 import './app.css'
 const App = () => {
   return (
@@ -12,12 +12,10 @@ const App = () => {
       <Brand />
       <Journal />
       <Article />
-      <Sections />
-      <Cta />
-      <Blog />
+      <Products />
       <Footer />
 
-    </div>
+    </div> 
   )
 }
 

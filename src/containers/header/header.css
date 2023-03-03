@@ -61,12 +61,12 @@
     color: #fff;
     border-top-right-radius: 8px ;
     border-bottom-right-radius: 8px ;
-    background-color: rgb(252, 25, 112);
+    background-color: var(--color-button);
     border: none;
     outline: none;
 }
 ._header-content_form button:hover{
-    background-color: rgba(252, 25, 112, 0.808);
+    background-color: var(--color-button-h);
     /* border: 2px solid rgba(252, 25, 112, 0.808); */
 }
 ._header-content_people{
